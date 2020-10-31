@@ -1,0 +1,96 @@
+﻿.jets-artist-btn {
+    background: #cabd80 !important;
+}
+    .jets-artist-btn:hover {
+        background: #cabd80 !important;
+        filter: brightness(1.1) !important;
+    }
+
+.submit-btn {
+    height: 40px;
+}
+
+.cancel-btn {
+    background: #fff !important;
+    border: 1px solid #cabd80;
+    color: #cabd80;
+    height: 40px;
+}
+
+    .cancel-btn:hover {
+        background: #cabd80 !important;
+        border: 1px solid #cabd80;
+        color: #fff;
+        filter: brightness(1) !important;
+    }
+
+.registration-login-link a {
+    color: #cabd80 !important;
+}
+
+.login h3 {
+    color: #cabd80 !important;
+}
+.times-btn {
+    color: #cabd80 !important;
+}
+
+.jets-control:focus ~ label, .jets-control.valid ~ label {
+    color: #cabd80;
+}
+
+.jets-control.invalid ~ label {
+    color: rgb(204,0,40) !important;
+}
+
+.registration h3 {
+    color: #cabd80;
+}
+
+.search-btn {
+    color: #cabd80;
+    transition: .3s all ease;
+}
+
+.profileLink{
+    transition: .3s all ease;
+}
+
+.profileLink:hover {
+    color: #cabd80 !important;
+}
+
+.custom-select {
+    padding: .375rem 1.75rem .375rem .75rem;
+    margin: 0;
+}
+
+.dark-blue-color {
+    color: #263238 !important;
+    text-decoration: none !important;
+    transition: .3s all ease;
+}
+
+    .dark-blue-color:hover {
+        color: #cabd80 !important;
+        text-decoration: none !important;
+    }
+
+.dark-blue-color a {
+    color: #263238 !important;
+    transition: .3s all ease;
+    text-decoration: none !important;
+}
+
+    .dark-blue-color a:hover {
+        color: #cabd80 !important;
+        transition: .3s all ease;
+    }
+
+.default-color{
+    color: #cabd80;
+}
+
+.price-new-style2 {
+    color: #cabd80;
+}

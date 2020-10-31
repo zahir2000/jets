@@ -1,0 +1,268 @@
+﻿.payment-success {
+    text-align: center;
+    width: 100%;
+    padding: 5px 0px;
+    color: #20B352 !important;
+}
+
+    .payment-success-check i {
+        font-size: 80px;
+    }
+
+.payment-success-thanks {
+    text-align: center;
+    width: 100%;
+    padding: 5px 0px;
+}
+
+.payment-success-thanks p{
+    margin: 0 !important;
+}
+
+.payment-success-thanks h1 {
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+.payment-order-details {
+    text-align: center;
+    padding: 5px 0px;
+    padding-top: 10px;
+}
+
+.payment-order-text {
+    background: #f4f4f4;
+    padding: 10px 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.payment-order-no {
+    font-weight: normal !important;
+}
+
+.payment-order-date {
+    font-weight: normal;
+}
+
+.payment-order-body {
+    margin-top: 2%;
+    box-sizing: border-box;
+    overflow: auto;
+}
+
+.payment-order-body-left {
+    width: 49%;
+    overflow: auto;
+    float: left;
+    padding: 15px 15px;
+    padding-right: 16px;
+}
+
+.payment-order-content {
+    width: 49%;
+    height: 200px;
+    overflow: auto;
+    float: left;
+    box-shadow: 0 2px 16px 0 rgba(0,0,0,0.08);
+}
+
+.payment-order-body-title {
+    font-weight: 700;
+}
+
+.payment-order-shipping-title {
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px;
+    display: inline-block;
+    width: 100%;
+    background-color: #d3d2b5;
+    padding-left: 5%;
+}
+
+.fa-home,
+.fa-truck, .fa-times-circle,
+.fa-credit-card, .fa-info-circle {
+    color: black;
+    font-size: 25px;
+    vertical-align: sub;
+    margin-right: 5px;
+}
+
+.fa-times-circle {
+    color: #D86C70;
+}
+
+.payment-order-body-content {
+    margin-top: 18px;
+    margin-left: 5%;
+    line-height: 10px;
+    padding-bottom: 15px;
+}
+
+.payment-order-body-content-name{
+    font-weight: bold;
+}
+
+.payment-order-body-content-address,
+.payment-order-body-content-shipmethod {
+    line-height: 1.1rem;
+    width: 90%;
+}
+
+.payment-order-content-bottom{
+    margin-top: 2rem;
+}
+
+.fa-paypal {
+    color: #3b7bbf;
+}
+
+.paypal-logo {
+    height: 25px;
+    width: 25px;
+    vertical-align: middle;
+}
+
+.payment-order-body-right {
+    float: right;
+    width: 50%;
+    box-sizing: border-box;
+    padding: 15px 16px;
+    padding-left: 0;
+}
+
+.order-details{
+    width: 100%;
+    height: auto;
+}
+
+.payment-order-footer {
+    background: rgba(211, 210, 181, 0.4);
+    text-align: right;
+    padding-right: 5px;
+    box-sizing: border-box;
+    padding: 0.92857em 1.42857em 0.92857em;
+    overflow: auto;
+}
+
+/*.order-details-body img {
+    width: 100px;
+    margin-right: 3%;
+    float: left;
+    position: relative;
+    overflow: auto;
+    border: 2px solid #eee;
+}*/
+
+.order-details-body-name {
+    font-weight: bold;
+    display: block;
+    line-height: normal;
+    text-align: left;
+}
+
+.order-details-body-content {
+    margin-bottom: 15px;
+    margin-top: 10px;
+    float: left;
+    width: 80%;
+    position: relative;
+}
+
+.order-details-img {
+    margin-bottom: 10px;
+    width: 17%;
+    margin-right: 3%;
+    min-height: 100px;
+    float: left;
+    position: relative;
+}
+
+.order-details-img img{
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    width: 100%;
+    -ms-transform: translate(0%, -50%);
+    transform: translate(0%, -50%);
+}
+
+.order-details-body {
+    overflow: auto;
+}
+
+.order-qty {
+    color: #ccc;
+    font-size: 0.9rem;
+}
+
+.order-price {
+    color: #ccc;
+    font-size: 0.9rem;
+    float: right;
+    padding-right: 15px;
+}
+
+.some-items {
+    z-index: 1;
+    width: 100%;
+    transform: translate(0%, 100%);
+}
+
+.item-name {
+    font-weight: bold;
+    margin-top: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.some-item-inner{
+    line-height: 22px;
+}
+
+.item-qty{
+    float:left;
+    color: #333;
+}
+
+.address-width{
+    width: 100%;
+}
+
+.order-button{
+    display: inline-block;
+    float: right;
+}
+
+.order-btn {
+    background: rgb(211, 210, 181);
+    height: 40px;
+    padding: 0 25px;
+    color: #000;
+}
+
+    .order-btn:hover {
+        filter: brightness(0.9);
+        background: rgb(211, 210, 181);
+    }
+
+.fail-btn {
+    float: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 300px;
+    margin: auto;
+}
+
+.fail-btn-style {
+    background: #D86C70;
+    color: white;
+}
+
+.fail-btn-style:hover {
+    background: #D86C70;
+}

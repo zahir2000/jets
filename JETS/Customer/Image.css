@@ -1,0 +1,144 @@
+﻿.dark-blue-color {
+    color: #263238 !important;
+    text-decoration: none !important;
+}
+
+    .dark-blue-color a {
+        color: #263238 !important;
+        text-decoration: none !important;
+    }
+
+.starSize i {
+    font-size: 15px;
+    color: #cfcfcf;
+}
+
+.starSize a {
+    border-left: 1px solid #dfdfdf;
+    margin-left: 7px;
+    padding-left: 7px;
+    position: relative;
+    vertical-align: middle;
+    color: #008ecc;
+    text-decoration: none;
+}
+
+/*.breadcrumb-item a {
+    color: #008ecc !important;
+}
+
+    .breadcrumb-item a:hover {
+        color: #777 !important;
+        transition: all linear .3s;
+    }*/
+
+.price-new-style2 {
+    font-size: 30px;
+}
+
+.hrLine {
+    border-bottom: 1px solid #dfdfdf;
+}
+
+.stockYes {
+    margin-left: 5px;
+    padding: 1px 10px 1px 10px;
+    background-color: #008ecc !important;
+    color: #fff;
+}
+
+.stockNo {
+    margin-left: 5px;
+    padding: 1px 10px 1px 10px;
+    background-color: #dc3545 !important;
+    color: #fff;
+}
+
+.paintingID {
+    padding-left: 10px;
+}
+
+.paintingType {
+    padding-left: 10px;
+    color: #008ecc !important;
+    text-decoration: none;
+}
+
+    .paintingType:hover {
+        text-decoration: none;
+        color: #777 !important;
+        transition: all linear .3s;
+    }
+
+.addToCartBtn {
+    background-color: #008ecc !important;
+    border-color: #008ecc !important;
+    width: 100%;
+}
+
+.qty {
+    width: 100%;
+}
+
+.fieldPadding {
+    padding-left: 10px;
+}
+
+.nostylebtn {
+    text-decoration: none;
+    background: none;
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+.yellowStar {
+    color: #b9a11b !important;
+}
+
+.reviewBtn {
+    float: right;
+    width: 250px;
+    height: 40px;
+}
+
+.rate {
+    float: left;
+    height: 46px;
+}
+
+    .rate:not(:checked) > input {
+        position: absolute;
+        top: -9999px;
+    }
+
+    .rate:not(:checked) > label {
+        float: right;
+        width: 1em;
+        overflow: hidden;
+        white-space: nowrap;
+        cursor: pointer;
+        font-size: 30px;
+        color: #ccc;
+    }
+
+        .rate:not(:checked) > label:before {
+            content: '★ ';
+        }
+
+    .rate > input:checked ~ label {
+        color: #ffc700;
+    }
+
+    .rate:not(:checked) > label:hover,
+    .rate:not(:checked) > label:hover ~ label {
+        color: #deb217;
+    }
+
+    .rate > input:checked + label:hover,
+    .rate > input:checked + label:hover ~ label,
+    .rate > input:checked ~ label:hover,
+    .rate > input:checked ~ label:hover ~ label,
+    .rate > label:hover ~ input:checked ~ label {
+        color: #c59b08;
+    }
